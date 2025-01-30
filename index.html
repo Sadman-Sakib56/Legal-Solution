@@ -85,8 +85,9 @@
             </div>
         </nav>
         <section>
-            <div class="hero h-[550px] " style="background-image: url(./images/banner.png);">
-                <div class="hero-overlay bg-opacity-40">
+            <div
+                class="hero h-[550px]  bg-[linear-gradient(to_right,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./images/banner.png')]">
+                <div class="hero-overlay bg-opacity-30">
                 </div>
                 <div class="hero-content text-neutral-content text-center">
                     <div class="max-w-md space-y-4">
@@ -225,19 +226,92 @@
             <h2 class="text-4xl font-bold text-[#414040] mb-8 ">What Our Client Say</h2>
             <p class="text-gray-600">There are many variations of passages of Lorem Ipsum available, but the majority
                 have <br>suffered alteration in some form, by injected humour.</p>
-            <div>
-                <div class="carousel mt-16 w-full ">
-                    <div id="slide1" class="carousel-item relative w-full">
-                        <img src="images/banner.png" class="w-full" />
-                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <div class="carousel w-full ">
+                <div id="slide1" class="carousel-item relative w-full lg:h-[500px] ">
 
-                            <a href="#slide4" class="btn btn-circle">❮</a>
-                            <a href="#slide2" class="btn btn-circle">❯</a>
-                        </div>
+                    <img class="w-full bg-[linear-gradient(to_right,rgba(0,0,0,0.5),rgba(0,0,0,2))"
+                        src="images/banner.png" alt="">
+
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
                     </div>
+                    <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 ">
+                        <div class="avatar">
+                            <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                                <img src="images/user-1.png" />
+                            </div>
 
+                        </div>
+                        <h3 class="text-xl text-white">Jason</h3>
+                        <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem maxime
+                            odio suscipit optio
+                            aliquid repellendus dolorem dolor corrupti, est pariatur ratione, eius reprehenderit
+                            nesciunt
+                            reiciendis similique cum iusto eligendi veniam assumenda. Aut odio dolore molestiae
+                            obcaecati
+                            necessitatibus amet laborum laboriosam mollitia maxime unde minus dolores eveniet, at
+                            pariatur.
+                            Cumque, fugit?</p>
+                    </div>
                 </div>
+                <div id="slide2" class="carousel-item relative w-full lg:h-[500px]">
+
+                    <img class="w-full bg-[linear-gradient(to_right,rgba(0,0,0,0.5),rgba(0,0,0,2))"
+                        src="images/slider-1.jpg" alt="">
+
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                    <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 ">
+                        <div class="avatar">
+                            <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                                <img src="images/user-2.png" />
+                            </div>
+
+                        </div>
+                        <h3 class="text-xl text-white">Jenifer Laurange</h3>
+                        <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem maxime
+                            odio suscipit optio
+
+                            necessitatibus amet laborum laboriosam mollitia maxime unde minus dolores eveniet, at
+                            pariatur.
+                            Cumque, fugit?</p>
+                    </div>
+                </div>
+
+                <div id="slide3" class="carousel-item relative w-full lg:h-[500px] ">
+
+                    <img class="w-full bg-[linear-gradient(to_right,rgba(0,0,0,0.5),rgba(0,0,0,2))"
+                        src="images/slider-3.jpg" alt="">
+
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                    <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 ">
+                        <div class="avatar">
+                            <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                                <img src="images/user-3.png" />
+                            </div>
+
+                        </div>
+                        <h3 class="text-xl text-white">Mark Marqeez</h3>
+                        <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem maxime
+                            odio suscipit optio
+                            aliquid repellendus dolorem dolor corrupti, est pariatur ratione, eius reprehenderit
+                            nesciunt
+                            reiciendis similique cum iusto eligendi veniam assumenda. Aut odio dolore molestiae
+                            obcaecati
+                            necessitatibus amet laborum laboriosam mollitia maxime unde minus dolores eveniet, at
+                            pariatur.
+                            Cumque, fugit?</p>
+                    </div>
+                </div>
+
             </div>
+
         </section>
 
         <!-- faq section -->
@@ -302,6 +376,9 @@
             </div>
 
         </section>
+
+
+        <!-- review card -->
 
     </main>
     <footer>
